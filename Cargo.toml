@@ -1,0 +1,10 @@
+[package]
+name = "calculate-fork-hash-eth-bsc"
+version = "0.1.0"
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
+crc = "3.0.1"
+hex-literal = "0.4.1"
+primitive-types = { version = "0.12.1", features = ["rlp"] }
